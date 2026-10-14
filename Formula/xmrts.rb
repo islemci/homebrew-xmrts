@@ -1,19 +1,19 @@
 class Xmrts < Formula
   desc "Self-sovereign file timestamping on Monero"
   homepage "https://github.com/islemci/xmrts"
-  version "0.2.1"
+  version "0.3.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/islemci/xmrts/releases/download/v0.2.1/xmrts-macos-arm64.tar.gz"
-      sha256 "10c0d3861c647cc37b630c9105b5af9c4e19b0957feb360317a882a75006766d"
+      url "https://github.com/islemci/xmrts/releases/download/v0.3.0/xmrts-macos-arm64.tar.gz"
+      sha256 "9bb9b60797db0c6bd112d18fde90e28e344db4bf5b1d970249c4d7486d7bb7b5"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/islemci/xmrts/releases/download/v0.2.1/xmrts-linux-x86_64.tar.gz"
-      sha256 "c07969a622a97c2240dc9f0be93f4b5a2e3627624fd289d84ed6b6de44e00486"
+      url "https://github.com/islemci/xmrts/releases/download/v0.3.0/xmrts-linux-x86_64.tar.gz"
+      sha256 "0e71dfff32ab0ba79a15c7852c389a05529cde1bee20b98fdbddedb6e4d035e3"
     end
   end
 
